@@ -1,0 +1,105 @@
+body.dark{
+    background-color: #121212e2;
+    color: #ffffff;
+    text-align: center;
+    /* background: #f0f0f0; */
+    font-family: 'Segoe UI', sans-serif;
+    padding: 2rem;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    /* color: #0d0303; */
+}
+
+h2 {
+    font-size: 1.5rem;
+    /* color: #555; */
+    color: #cccccc;
+    margin-bottom: 2rem;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.line-one,
+.line-two {
+  display: flex;
+  gap: 2rem;
+}
+
+.btn {
+    height: 190px;
+    width: 185px;
+    border-radius: 18%;
+    border: 12px solid rgba(0, 0, 0, 0.993);
+    margin: 0.1rem;
+    cursor: pointer;
+    transition: transform 0.1s, box-shadow 0.2s;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+
+.yellow {
+    background-color: #f99b45;
+}
+
+.red {
+    background-color: #ed0e51;
+}
+
+.purple {
+    background-color: #540251;
+}
+
+.green {
+    background-color: #0cac24c6;
+}
+
+.flash{
+    background-color: #ffffff;
+}
+
+.userflash {
+  box-shadow: 0 0 20px 12px #00eeffac;
+}
+
+.controls {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#restart-btn {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+#restart-btn:hover {
+  background-color: #666;
+}
+
+.game-over {
+  background-color: #d32f2f !important;
+}
+
